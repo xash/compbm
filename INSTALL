@@ -1,0 +1,5 @@
+git clone https://github.com/openzfs/zfs.git ./zfs
+cd zfs && make && make modules && make install
+cd ..
+make && make install
+make tests.sh
